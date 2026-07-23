@@ -1,0 +1,52 @@
+name: Daily USPTO OA monitor
+
+on:
+  schedule:
+    # 06:00 and 11:00 UTC daily - the second run catches days when USPTO
+    # publishes the daily file late. State prevents double-reporting.
+    - cron: "0 6 * * *"
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run monitor
+        env:
+          USPTO_API_KEY: ${{ secrets.USPTO_API_KEY }}
+        run: |
+          set -o pipefail
+          python filter_oas.py 2>&1 | tee data/last_run_log.txt
+
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "oa-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "OA monitor results $(date -u +%F_%H%M)"
+            git pull --rebase origin main || true
+            git push
+          fi
