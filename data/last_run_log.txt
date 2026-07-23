@@ -1,4 +1,0 @@
-[filter_oas] Listing product files: https://api.uspto.gov/api/v1/datasets/products/TRTDXFAP?fileDataFromDate=2026-07-15&fileDataToDate=2026-07-23&includeFiles=true&limit=100
-[filter_oas] Found 8 candidate files: ['apc260715.zip', 'apc260716.zip', 'apc260717.zip', 'apc260718.zip', 'apc260719.zip', 'apc260720.zip', 'apc260721.zip', 'apc260722.zip']
-[filter_oas] No new daily files to process.
-[filter_oas] Wrote outputs: 0 new record(s), 666 in rolling 7-day window.

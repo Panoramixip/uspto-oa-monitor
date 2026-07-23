@@ -64,6 +64,11 @@ OA_EXCLUDE = [
     r"WITHDRAWN",
     r"VACATED",
     r"POST\s+REGISTRATION",      # post-registration actions are out of scope
+    # "NOTIFICATION OF ... ACTION E-MAILED" is the courtesy e-mail that pairs
+    # with an underlying ACTION MAILED/E-MAILED event. Counting only the
+    # underlying event avoids false hits when USPTO re-sends notifications
+    # for years-old office actions.
+    r"NOTIFICATION\s+OF",
 ]
 
 # Don't report the same application again within this many days.
