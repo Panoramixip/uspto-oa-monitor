@@ -63,7 +63,11 @@ OA_EXCLUDE = [
     r"NOTICE\s+OF",              # notices are not office actions
     r"WITHDRAWN",
     r"VACATED",
+    r"POST\s+REGISTRATION",      # post-registration actions are out of scope
 ]
+
+# Don't report the same application again within this many days.
+REPORT_COOLDOWN_DAYS = 10
 
 OA_INCLUDE_RE = [re.compile(p, re.I) for p in OA_INCLUDE]
 OA_EXCLUDE_RE = [re.compile(p, re.I) for p in OA_EXCLUDE]
@@ -227,10 +231,17 @@ def examine_case_file(cf, window_start, file_date, seen, debug_descriptions):
 
     oa_events.sort()
     oa_date, oa_desc, oa_code = oa_events[-1]
-    dedupe_key = f"{serial}|{oa_date.isoformat()}|{oa_desc.upper()}"
-    if dedupe_key in seen:
-        return None
-    seen[dedupe_key] = datetime.now(timezone.utc).date().isoformat()
+    # Dedupe per application: skip if this serial was reported recently
+    # (the same OA can surface under several event descriptions across days).
+    last = seen.get(serial)
+    if last:
+        try:
+            last_date = datetime.strptime(last, "%Y-%m-%d").date()
+            if (oa_date - last_date).days < REPORT_COOLDOWN_DAYS:
+                return None
+        except ValueError:
+            pass
+    seen[serial] = oa_date.isoformat()
 
     mark = text(cf, "./case-file-header/mark-identification")
     filing_date = parse_date(text(cf, "./case-file-header/filing-date"))
@@ -261,7 +272,18 @@ def examine_case_file(cf, window_start, file_date, seen, debug_descriptions):
 def load_state():
     if os.path.exists(STATE_PATH):
         with open(STATE_PATH) as fh:
-            return json.load(fh)
+            state = json.load(fh)
+        # Migrate legacy "serial|date|desc" dedupe keys to serial-only keys.
+        migrated = {}
+        for k, v in state.get("seen", {}).items():
+            if "|" in k:
+                serial, oa_date = k.split("|")[0], k.split("|")[1]
+                if serial not in migrated or oa_date > migrated[serial]:
+                    migrated[serial] = oa_date
+            else:
+                migrated[k] = v
+        state["seen"] = migrated
+        return state
     return {"processed_files": [], "seen": {}}
 
 
