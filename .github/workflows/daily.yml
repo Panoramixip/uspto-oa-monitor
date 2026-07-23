@@ -2,10 +2,11 @@ name: Daily USPTO OA monitor
 
 on:
   schedule:
-    # 06:00 and 11:00 UTC daily - the second run catches days when USPTO
-    # publishes the daily file late. State prevents double-reporting.
-    - cron: "0 6 * * *"
-    - cron: "0 11 * * *"
+    # USPTO publishes each day's file the following morning US Eastern time
+    # (~10:00-13:00 UTC). Two runs; the second catches late publication.
+    # State prevents double-reporting. The daily email goes out at 14:15 UTC.
+    - cron: "30 11 * * *"
+    - cron: "30 13 * * *"
   workflow_dispatch:
   push:
     branches: [main]
