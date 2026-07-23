@@ -1,0 +1,28 @@
+[filter_oas] Listing product files: https://api.uspto.gov/api/v1/datasets/products/TRTDXFAP?fileDataFromDate=2026-07-15&fileDataToDate=2026-07-23&includeFiles=true&limit=100
+[filter_oas] Found 8 candidate files: ['apc260715.zip', 'apc260716.zip', 'apc260717.zip', 'apc260718.zip', 'apc260719.zip', 'apc260720.zip', 'apc260721.zip', 'apc260722.zip']
+[filter_oas] Downloading apc260715.zip (31077768) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc260715.zip
+[filter_oas] Downloaded to /tmp/tmpffwb2j96/apc260715.zip (31077768 bytes)
+[filter_oas] apc260715.zip: 86 qualifying record(s).
+[filter_oas] Downloading apc260716.zip (27737590) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc260716.zip
+[filter_oas] Downloaded to /tmp/tmpffwb2j96/apc260716.zip (27737590 bytes)
+[filter_oas] apc260716.zip: 73 qualifying record(s).
+[filter_oas] Downloading apc260717.zip (26342532) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc260717.zip
+[filter_oas] Downloaded to /tmp/tmpffwb2j96/apc260717.zip (26342532 bytes)
+[filter_oas] apc260717.zip: 56 qualifying record(s).
+[filter_oas] Downloading apc260718.zip (7917559) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc260718.zip
+[filter_oas] Downloaded to /tmp/tmpffwb2j96/apc260718.zip (7917559 bytes)
+[filter_oas] apc260718.zip: 89 qualifying record(s).
+[filter_oas] Downloading apc260719.zip (3750345) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc260719.zip
+[filter_oas] Downloaded to /tmp/tmpffwb2j96/apc260719.zip (3750345 bytes)
+[filter_oas] apc260719.zip: 99 qualifying record(s).
+[filter_oas] Downloading apc260720.zip (59888077) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc260720.zip
+[filter_oas] Downloaded to /tmp/tmpffwb2j96/apc260720.zip (59888077 bytes)
+[filter_oas] apc260720.zip: 78 qualifying record(s).
+[filter_oas] Downloading apc260721.zip (55172623) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc260721.zip
+[filter_oas] Downloaded to /tmp/tmpffwb2j96/apc260721.zip (55172623 bytes)
+[filter_oas] apc260721.zip: 93 qualifying record(s).
+[filter_oas] Downloading apc260722.zip (56319514) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc260722.zip
+[filter_oas] Downloaded to /tmp/tmpffwb2j96/apc260722.zip (56319514 bytes)
+[filter_oas] apc260722.zip: 91 qualifying record(s).
+[filter_oas] Wrote outputs: 665 new record(s), 665 in rolling 7-day window.
+[filter_oas] Done.
