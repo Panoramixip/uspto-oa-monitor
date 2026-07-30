@@ -1,4 +1,6 @@
-[filter_oas] Listing product files: https://api.uspto.gov/api/v1/datasets/products/TRTDXFAP?fileDataFromDate=2026-07-21&fileDataToDate=2026-07-29&includeFiles=true&limit=100
-[filter_oas] Found 8 candidate files: ['apc260721.zip', 'apc260722.zip', 'apc260723.zip', 'apc260724.zip', 'apc260725.zip', 'apc260726.zip', 'apc260727.zip', 'apc260728.zip']
-[filter_oas] No new daily files to process.
+[filter_oas] Listing product files: https://api.uspto.gov/api/v1/datasets/products/TRTDXFAP?fileDataFromDate=2026-07-22&fileDataToDate=2026-07-30&includeFiles=true&limit=100
+[filter_oas] Found 8 candidate files: ['apc260722.zip', 'apc260723.zip', 'apc260724.zip', 'apc260725.zip', 'apc260726.zip', 'apc260727.zip', 'apc260728.zip', 'apc260729.zip']
+[filter_oas] Downloading apc260729.zip (35182304) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc260729.zip
+[filter_oas] ERROR downloading apc260729.zip: HTTP 429; skipping.
 [filter_oas] Wrote outputs: 0 new record(s), 994 in rolling 7-day window.
+[filter_oas] Done.
