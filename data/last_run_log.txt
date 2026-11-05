@@ -1,7 +1,4 @@
 [filter_oas] Listing product files: https://api.uspto.gov/api/v1/datasets/products/TRTDXFAP?fileDataFromDate=2026-10-28&fileDataToDate=2026-11-05&includeFiles=true&limit=100
 [filter_oas] Found 8 candidate files: ['apc261028.zip', 'apc261029.zip', 'apc261030.zip', 'apc261031.zip', 'apc261101.zip', 'apc261102.zip', 'apc261103.zip', 'apc261104.zip']
-[filter_oas] Downloading apc261104.zip (34773686) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc261104.zip
-[filter_oas] Downloaded to /tmp/tmpt8hc54ri/apc261104.zip (34773686 bytes)
-[filter_oas] apc261104.zip: 131 qualifying record(s).
-[filter_oas] Wrote outputs: 131 new record(s), 590 in rolling 7-day window.
-[filter_oas] Done.
+[filter_oas] No new daily files to process.
+[filter_oas] Wrote outputs: 0 new record(s), 590 in rolling 7-day window.
