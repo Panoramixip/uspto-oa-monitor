@@ -2,6 +2,22 @@
  "generated": "2026-11-15",
  "records": [
   {
+   "serial": "50020586",
+   "mark": "SISTER SPEAK",
+   "applicant": "Sherri Anne Nyberg",
+   "applicant_country": "CA",
+   "route": "Direct US application",
+   "international_registration": "",
+   "office_action": "NON-FINAL ACTION E-MAILED",
+   "office_action_code": "GNRT",
+   "office_action_date": "2026-11-14",
+   "filing_date": "2026-07-29",
+   "status_code": "641",
+   "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=50020586&caseType=SERIAL_NO&searchType=statusSearch",
+   "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn50020586",
+   "found_date": "2026-11-15"
+  },
+  {
    "serial": "79450804",
    "mark": "FELDAN",
    "applicant": "FELDAN BIO INC.",
