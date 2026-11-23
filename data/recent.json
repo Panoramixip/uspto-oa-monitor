@@ -1,6 +1,38 @@
 {
- "generated": "2026-11-22",
+ "generated": "2026-11-23",
  "records": [
+  {
+   "serial": "99896813",
+   "mark": "AROWELL",
+   "applicant": "Hoang Minh Thong",
+   "applicant_country": "VN",
+   "route": "Direct US application",
+   "international_registration": "",
+   "office_action": "NON-FINAL ACTION E-MAILED",
+   "office_action_code": "GNRT",
+   "office_action_date": "2026-11-22",
+   "filing_date": "2026-06-21",
+   "status_code": "641",
+   "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=99896813&caseType=SERIAL_NO&searchType=statusSearch",
+   "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn99896813",
+   "found_date": "2026-11-23"
+  },
+  {
+   "serial": "99703878",
+   "mark": "ALMA WHERE FLAMENCO MEETS THE SKY",
+   "applicant": "alexander nicolas lichner bridge",
+   "applicant_country": "ES",
+   "route": "Direct US application",
+   "international_registration": "",
+   "office_action": "FINAL REFUSAL E-MAILED",
+   "office_action_code": "GNFR",
+   "office_action_date": "2026-11-22",
+   "filing_date": "2026-03-16",
+   "status_code": "645",
+   "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=99703878&caseType=SERIAL_NO&searchType=statusSearch",
+   "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn99703878",
+   "found_date": "2026-11-23"
+  },
   {
    "serial": "79457965",
    "mark": "JM COFFEE",
@@ -6464,22 +6496,6 @@
    "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=99930610&caseType=SERIAL_NO&searchType=statusSearch",
    "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn99930610",
    "found_date": "2026-11-16"
-  },
-  {
-   "serial": "50020586",
-   "mark": "SISTER SPEAK",
-   "applicant": "Sherri Anne Nyberg",
-   "applicant_country": "CA",
-   "route": "Direct US application",
-   "international_registration": "",
-   "office_action": "NON-FINAL ACTION E-MAILED",
-   "office_action_code": "GNRT",
-   "office_action_date": "2026-11-14",
-   "filing_date": "2026-07-29",
-   "status_code": "641",
-   "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=50020586&caseType=SERIAL_NO&searchType=statusSearch",
-   "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn50020586",
-   "found_date": "2026-11-15"
   }
  ]
 }
