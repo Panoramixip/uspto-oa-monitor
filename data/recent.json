@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23",
+ "generated": "2026-11-24",
  "records": [
   {
    "serial": "99896813",
@@ -6448,54 +6448,6 @@
    "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=79449822&caseType=SERIAL_NO&searchType=statusSearch",
    "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn79449822",
    "found_date": "2026-11-17"
-  },
-  {
-   "serial": "99699622",
-   "mark": "MILES",
-   "applicant": "JACKSON PAN",
-   "applicant_country": "MH",
-   "route": "Direct US application",
-   "international_registration": "",
-   "office_action": "NON-FINAL ACTION E-MAILED",
-   "office_action_code": "GNRT",
-   "office_action_date": "2026-11-15",
-   "filing_date": "2026-03-12",
-   "status_code": "807",
-   "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=99699622&caseType=SERIAL_NO&searchType=statusSearch",
-   "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn99699622",
-   "found_date": "2026-11-16"
-  },
-  {
-   "serial": "99895444",
-   "mark": "MARLOWE PRIVATE WEALTH",
-   "applicant": "John Sebastian King",
-   "applicant_country": "GB",
-   "route": "Direct US application",
-   "international_registration": "",
-   "office_action": "NON-FINAL ACTION E-MAILED",
-   "office_action_code": "GNRT",
-   "office_action_date": "2026-11-15",
-   "filing_date": "2026-06-19",
-   "status_code": "641",
-   "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=99895444&caseType=SERIAL_NO&searchType=statusSearch",
-   "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn99895444",
-   "found_date": "2026-11-16"
-  },
-  {
-   "serial": "99930610",
-   "mark": "DIVIERE",
-   "applicant": "Pelet, Fernanda",
-   "applicant_country": "BR",
-   "route": "Direct US application",
-   "international_registration": "",
-   "office_action": "NON-FINAL ACTION E-MAILED",
-   "office_action_code": "GNRT",
-   "office_action_date": "2026-11-12",
-   "filing_date": "2026-07-09",
-   "status_code": "661",
-   "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=99930610&caseType=SERIAL_NO&searchType=statusSearch",
-   "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn99930610",
-   "found_date": "2026-11-16"
   }
  ]
 }
