@@ -1,6 +1,7 @@
 [filter_oas] Listing product files: https://api.uspto.gov/api/v1/datasets/products/TRTDXFAP?fileDataFromDate=2026-11-19&fileDataToDate=2026-11-27&includeFiles=true&limit=100
 [filter_oas] Found 8 candidate files: ['apc261119.zip', 'apc261120.zip', 'apc261121.zip', 'apc261122.zip', 'apc261123.zip', 'apc261124.zip', 'apc261125.zip', 'apc261126.zip']
 [filter_oas] Downloading apc261126.zip (11930437) from https://api.uspto.gov/api/v1/datasets/products/files/TRTDXFAP/apc261126.zip
-[filter_oas] ERROR downloading apc261126.zip: HTTP 429; skipping.
-[filter_oas] Wrote outputs: 0 new record(s), 208 in rolling 7-day window.
+[filter_oas] Downloaded to /tmp/tmp6cjkyl5_/apc261126.zip (11930437 bytes)
+[filter_oas] apc261126.zip: 2 qualifying record(s).
+[filter_oas] Wrote outputs: 2 new record(s), 210 in rolling 7-day window.
 [filter_oas] Done.

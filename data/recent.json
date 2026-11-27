@@ -2,6 +2,38 @@
  "generated": "2026-11-27",
  "records": [
   {
+   "serial": "98484500",
+   "mark": "CAOMP",
+   "applicant": "EKREM KARAGOZLU",
+   "applicant_country": "TR",
+   "route": "Direct US application",
+   "international_registration": "",
+   "office_action": "NON-FINAL ACTION E-MAILED",
+   "office_action_code": "GNRT",
+   "office_action_date": "2026-11-26",
+   "filing_date": "2024-04-04",
+   "status_code": "641",
+   "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=98484500&caseType=SERIAL_NO&searchType=statusSearch",
+   "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn98484500",
+   "found_date": "2026-11-27"
+  },
+  {
+   "serial": "99274379",
+   "mark": "TRCELAB",
+   "applicant": "Pure Choice Vitamins Inc.",
+   "applicant_country": "CA",
+   "route": "Direct US application",
+   "international_registration": "",
+   "office_action": "NON-FINAL ACTION E-MAILED",
+   "office_action_code": "GNRT",
+   "office_action_date": "2026-11-24",
+   "filing_date": "2025-07-09",
+   "status_code": "666",
+   "tsdr_status": "https://tsdr.uspto.gov/#caseNumber=99274379&caseType=SERIAL_NO&searchType=statusSearch",
+   "tsdr_documents": "https://tsdr.uspto.gov/documentviewer?caseId=sn99274379",
+   "found_date": "2026-11-27"
+  },
+  {
    "serial": "50038638",
    "mark": "DAS BUBO",
    "applicant": "MAURICIO ALFREDO FLORES CARVALHO",
